@@ -1,0 +1,20 @@
+{
+  "name": "test-cross-spawn-env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hello": "node index.js",
+    "spawn": "node spawn.js",
+    "precommit": "npm run spawn"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-spawn": "^5.1.0"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3"
+  }
+}
